@@ -1,0 +1,36 @@
+@mixin flexCenter{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+@mixin flex-spaceBetween{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+@mixin btn-primary{
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+  width: 150px;
+  color: rgb(255, 255, 255);
+  background: $primaryColor;
+  border: none;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+@mixin btn-secundary{
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+  width: 150px;
+  color: $primaryColor;
+  border: 1px solid red;
+  padding: 10px 15px;
+  text-decoration: none;
+}
