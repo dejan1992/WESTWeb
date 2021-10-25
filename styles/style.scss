@@ -14,9 +14,11 @@
   scroll-behavior: smooth;
   scroll-padding-top: 72px;
 }
+
 body{
   margin: 0;
   background: $mainBackgroundColor;
+
 
 .hr{
   display:block;
@@ -31,7 +33,7 @@ body{
 
 // Navigation
 header{
-  overflow: hidden;
+  overflow-x: hidden;
   background: $mainBackgroundColor;
   position: fixed;
   top: 0;
@@ -276,8 +278,9 @@ footer{
       a{
         color: #333;
         text-decoration: none;
-        margin-left:20px;
+        margin: 0 10px;
       }
+
     }
   }
 }

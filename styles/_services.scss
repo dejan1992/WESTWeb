@@ -76,22 +76,22 @@
   padding: 0px;
   margin-bottom: 1vw;
 
-  .honeycomb-cell{
-  &:first-child{
-  color: #fff;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5)) , url(../img/javier-miranda-usTxwR91WLw-unsplash.jpg);
-  background-position: center;
-  background-size: cover;
-  @include flexCenter();
-  flex-direction: column;
-  i{
-    margin-bottom: 10px;
-  }
-  h3{
-    margin-bottom: 10px;
-  }
+    .honeycomb-cell{
+    &:first-child{
+    color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)) , url(../img/javier-miranda-usTxwR91WLw-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    @include flexCenter();
+    flex-direction: column;
+      i{
+        margin-bottom: 10px;
+      }
+      h3{
+        margin-bottom: 10px;
+      }
   
-}
+    }
 
 &:nth-child(3){
   color: #fff;
@@ -219,7 +219,7 @@
       }
      }
      &:nth-child(3){
-       position: relative;
+      position: relative;
       color: #fff;
       background-image: linear-gradient(rgba(0, 0, 0, 0.6)) , url(../img/fre-sonneveld-q6n8nIrDQHE-unsplash.jpg);
       background-position: center;
@@ -227,13 +227,13 @@
       @include flexCenter();
       flex-direction: column;
       img{
-        width: 70px;
+        width: 60px;
         height: auto;
         margin-bottom: 10px;
       }
       h4{
         text-transform: uppercase;
-        font-size:25px;
+        font-size:20px;
         letter-spacing: 5px;
       }
       .action{
@@ -273,13 +273,13 @@
       @include flexCenter();
       flex-direction: column;
       img{
-        width: 70px;
+        width: 60px;
         height: auto;
         margin-bottom: 10px;
       }
       h4{
         text-transform: uppercase;
-        font-size:25px;
+        font-size:20px;
         letter-spacing: 5px;
       }
       .action{
@@ -345,13 +345,13 @@
       @include flexCenter();
       flex-direction: column;
       img{
-        width: 70px;
+        width: 60px;
         height: auto;
         margin-bottom: 10px;
       }
       h4{
         text-transform: uppercase;
-        font-size:25px;
+        font-size:20px;
         letter-spacing: 5px;
       }
       .action{
@@ -389,13 +389,13 @@
         @include flexCenter();
         flex-direction: column;
         img{
-          width: 70px;
+          width: 60px;
           height: auto;
           margin-bottom: 10px;
         }
         h4{
           text-transform: uppercase;
-          font-size:25px;
+          font-size:20px;
           letter-spacing: 5px;
         }
         .action{

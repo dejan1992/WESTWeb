@@ -379,14 +379,14 @@
 }
 
 #services .honeycomb .honeycomb-ul-row-3 .honeycomb-cell:nth-child(3) img {
-  width: 70px;
+  width: 60px;
   height: auto;
   margin-bottom: 10px;
 }
 
 #services .honeycomb .honeycomb-ul-row-3 .honeycomb-cell:nth-child(3) h4 {
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 20px;
   letter-spacing: 5px;
 }
 
@@ -447,14 +447,14 @@
 }
 
 #services .honeycomb .honeycomb-ul-row-3 .honeycomb-cell:nth-child(4) img {
-  width: 70px;
+  width: 60px;
   height: auto;
   margin-bottom: 10px;
 }
 
 #services .honeycomb .honeycomb-ul-row-3 .honeycomb-cell:nth-child(4) h4 {
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 20px;
   letter-spacing: 5px;
 }
 
@@ -556,14 +556,14 @@
 }
 
 #services .honeycomb .honeycomb-ul-row-4 .honeycomb-cell:nth-child(2) img {
-  width: 70px;
+  width: 60px;
   height: auto;
   margin-bottom: 10px;
 }
 
 #services .honeycomb .honeycomb-ul-row-4 .honeycomb-cell:nth-child(2) h4 {
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 20px;
   letter-spacing: 5px;
 }
 
@@ -624,14 +624,14 @@
 }
 
 #services .honeycomb .honeycomb-ul-row-4 .honeycomb-cell:nth-child(3) img {
-  width: 70px;
+  width: 60px;
   height: auto;
   margin-bottom: 10px;
 }
 
 #services .honeycomb .honeycomb-ul-row-4 .honeycomb-cell:nth-child(3) h4 {
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 20px;
   letter-spacing: 5px;
 }
 
@@ -719,7 +719,7 @@ body .hr {
 }
 
 body #home header {
-  overflow: hidden;
+  overflow-x: hidden;
   background: whitesmoke;
   position: fixed;
   top: 0;
@@ -1120,7 +1120,7 @@ body footer #footer-container-bottom div {
 body footer #footer-container-bottom div a {
   color: #333;
   text-decoration: none;
-  margin-left: 20px;
+  margin: 0 10px;
 }
 
 @media (max-width: 1330px) {
@@ -1254,7 +1254,7 @@ body footer #footer-container-bottom div a {
     width: 70vw !important;
     height: 73vw !important;
   }
-  .honeycomb-ul-row-4 .honeycomb-cell:nth-child(1), .honeycomb-ul-row-4 .honeycomb-cell:nth-child(2), .honeycomb-ul-row-4 .honeycomb-cell:last-child {
+  .honeycomb-ul-row-4 .honeycomb-cell:nth-child(1), .honeycomb-ul-row-4 .honeycomb-cell:last-child {
     display: none !important;
   }
   .honeycomb-ul-row-2 {
